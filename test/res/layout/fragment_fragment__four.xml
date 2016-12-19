@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nee.newhouse.fragments.Fragment_Four">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/p_4"
+        />
+    <TextView
+        android:id="@+id/go"
+        android:text="立即体验"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:background="@drawable/install_go"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp" />
+
+</RelativeLayout>

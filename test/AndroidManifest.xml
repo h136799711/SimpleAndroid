@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.team.nee.news"
+          android:versionCode="1004"
+          android:versionName="1.0.4"
+          >
+    
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="22"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/> 
+    <application
+        android:name="com.team.nee.news.MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" 
+        android:theme="@style/AppTheme" >
+        
+		<meta-data android:value="58529118f43e48605000055c" android:name="UMENG_APPKEY"/>
+		<meta-data android:value="Android_Union" android:name="UMENG_CHANNEL"/>
+        <meta-data
+		    android:name="UMENG_APPKEY"
+		    android:value="58529118f43e48605000055c">
+		</meta-data>
+		<meta-data
+		    android:name="UMENG_MESSAGE_SECRET"
+		    android:value="94df6d788bd8250c1219423223ac1c7f">
+		</meta-data>
+        
+        <activity android:name=".MainActivity"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity  
+            android:name=".LoginActivity"  
+            android:configChanges="orientation|keyboardHidden|screenSize"
+             />
+    </application>
+
+</manifest>

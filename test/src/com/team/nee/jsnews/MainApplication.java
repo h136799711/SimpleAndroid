@@ -1,4 +1,4 @@
-package com.team.nee.news;
+package com.team.nee.jsnews;
 
 import com.umeng.message.IUmengRegisterCallback;
 import com.umeng.message.PushAgent;

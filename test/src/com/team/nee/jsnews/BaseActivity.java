@@ -1,4 +1,4 @@
-package com.team.nee.news;
+package com.team.nee.jsnews;
 
 import com.umeng.analytics.MobclickAgent;
 import com.umeng.message.PushAgent;

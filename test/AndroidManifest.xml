@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.team.nee.news"
+          package="com.team.nee.jsnews"
           android:versionCode="1004"
           android:versionName="1.0.4"
           >
@@ -13,21 +13,21 @@
 	<uses-permission android:name="android.permission.INTERNET"/>
 	<uses-permission android:name="android.permission.READ_PHONE_STATE"/> 
     <application
-        android:name="com.team.nee.news.MainApplication"
+        android:name="com.team.nee.jsnews.MainApplication"
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name" 
         android:theme="@style/AppTheme" >
         
-		<meta-data android:value="58529118f43e48605000055c" android:name="UMENG_APPKEY"/>
+		<meta-data android:value="58578b8ef5ade47407000218" android:name="UMENG_APPKEY"/>
 		<meta-data android:value="Android_Union" android:name="UMENG_CHANNEL"/>
         <meta-data
 		    android:name="UMENG_APPKEY"
-		    android:value="58529118f43e48605000055c">
+		    android:value="58578b8ef5ade47407000218">
 		</meta-data>
 		<meta-data
 		    android:name="UMENG_MESSAGE_SECRET"
-		    android:value="94df6d788bd8250c1219423223ac1c7f">
+		    android:value="c697907771d2ecc51c827756ec15da9a">
 		</meta-data>
         
         <activity android:name=".MainActivity"  >
